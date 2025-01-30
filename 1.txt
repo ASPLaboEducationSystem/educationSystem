@@ -1,0 +1,10 @@
+出力
+　    System.out.print();
+　の()の中に書いたものが表示されます。
+　例えば、
+　    System.out.print(1);
+　と書けば、「1」が表示され、
+　    System.out.print("あ");
+　と書けば、「あ」が表示されます。また、
+　    System.out.println();
+　と書けば、()の中が表示された後に改行されます。

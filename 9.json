@@ -1,0 +1,40 @@
+{
+    "list": [
+        {
+            "id": "01",
+            "questionText": "import java.util.Random;\n\nint x;\nRandom random = new Random();\nx = random.nextInt(5) + 1;\nSystem.out.println(x);\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. read",
+                "2. random",
+                "3. 入るものはない"
+            ],
+            "correctAnswer": 2,
+            "explanationText": "変数x = random.nextInt(5) + 1で正しく記述されている。randomはRandomクラスのメソッドを呼び出すためのインスタンス。",
+            "hintText": "選択肢の3は消えるぞ"
+        },
+        {
+            "id": "02",
+            "questionText": "import java.util.Random;\n\nRandom rand = new Random();\nint x = rand.nextInt(3);\nSystem.out.print(x);\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. 0 ～ 2 のいずれか",
+                "2. 1 ～ 3 のいずれか",
+                "3. 0 ～ 3 のいずれか"
+            ],
+            "correctAnswer": 1,
+            "explanationText": "rand.nextInt(3) は、0から2までの整数をランダムに生成するため、出力結果は0, 1, 2のいずれか。",
+            "hintText": "選択肢の3は消えるぞ"
+        },
+        {
+            "id": "03",
+            "questionText": "import java.util.Random;\n\nRandom rand = new Random();\nint x = rand.nextInt(10) + 1;\nSystem.out.print(x);\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. 0 ～ 9 のいずれか",
+                "2. 1 ～ 10 のいずれか",
+                "3. 1 ～ 11 のいずれか"
+            ],
+            "correctAnswer": 2,
+            "explanationText": "rand.nextInt(10)は0～9の範囲の整数を生成する。その結果に+1を加えるため、最終的な範囲は1～10となる。",
+            "hintText": "選択肢の3は消えるぞ"
+        }
+    ]
+}

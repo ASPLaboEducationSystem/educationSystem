@@ -1,0 +1,8 @@
+乱数
+　乱数とはランダムな数字のことであり、プログラミングではこの乱数を使うことができます。
+　    import java.util.Random;
+　    Random random = new Random();
+　    int x = random.nextInt(6);
+　といった感じで書き、この場合、xには0～5までのランダムな数字が入ります。もしも3行目を
+　    int x = random.nextInt(10);
+　とすれば、xには0～9までのランダムな数字が入ります。

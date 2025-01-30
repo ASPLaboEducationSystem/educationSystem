@@ -1,0 +1,64 @@
+{
+    "list": [
+        {
+            "id": "01",
+            "questionText": "int x = 8;\nif (x == 8) {\n    System.out.print(\"xは8です\");\n} else {\n    System.out.print(\"xは8ではありません\");\n}\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. xは8ではありません",
+                "2. xは8です",
+                "3. 8"
+            ],
+            "correctAnswer": 2,
+            "explanationText": "xが8であるとき、if文の条件式x == 8がtrueとなり、\"xは8です\"が表示されます",
+            "hintText": "if文の条件式に注目してください"
+        },
+        {
+            "id": "02",
+            "questionText": "String s = \"ケーキ\";\nif (s != \"ステーキ\") {\n    System.out.print(\"sはステーキではありません\");\n} else {\n    System.out.print(\"sはステーキです\");\n}\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. sはステーキです",
+                "2. sはケーキです",
+                "3. sはステーキではありません"
+            ],
+            "correctAnswer": 3,
+            "explanationText": "sの値が\"ステーキ\"ではない場合、条件式s != \"ステーキ\"がtrueとなり、\"sはステーキではありません\"が表示されます",
+            "hintText": "!=は\"ではない\"を意味します"
+        },
+        {
+            "id": "03",
+            "questionText": "int x = 10;\nif (x > 5) {\n    System.out.print(\"xは5より大きいです\");\n} else if (x > 12) {\n    System.out.print(\"xは12より大きいです\");\n} else {\n    System.out.print(\"xは5以下です\");\n}\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. xは5より大きいです",
+                "2. xは12より大きいです",
+                "3. xは5以下です"
+            ],
+            "correctAnswer": 1,
+            "explanationText": "xの値が10であるため、x > 5の条件式がtrueとなり、\"xは5より大きいです\"が表示されます",
+            "hintText": "xの値に注目して条件式を確認しましょう"
+        },
+        {
+            "id": "04",
+            "questionText": "int x = 8;\nint y = 8;\nint z = 4;\nif (y == z) {\n    System.out.print(\"yとzは同じ数字です\");\n} else if (z <= x) {\n    System.out.print(\"zよりxのほうが大きいです\");\n} else if (x != y) {\n    System.out.print(\"xとyは異なる数字です\");\n} else {\n    System.out.print(\"上3つの条件は全て満たしません\");\n}\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. 上3つの条件は全て満たしません",
+                "2. yとzは同じ数字です",
+                "3. zよりxのほうが大きいです"
+            ],
+            "correctAnswer": 3,
+            "explanationText": "ifの条件を上から順に確認するため、最初に条件を満たすz <= xに分岐し、\"zよりxのほうが大きいです\"が表示されます",
+            "hintText": "ifの条件を上から順に確認して最初に条件を満たしたものを表示します"
+        },
+        {
+            "id": "05",
+            "questionText": "int x = 10;\nint y = 5;\nif ([　　]) {\n    System.out.print(\"xはyより大きいです\");\n} else {\n    System.out.print(\"xはy以下です\");\n}\n\nこのコードの出力結果が以下のとき、[　　]に入る文字は？\nxはyより大きいです",
+            "selections": [
+                "1. x == y",
+                "2. x > y",
+                "3. x <= y"
+            ],
+            "correctAnswer": 2,
+            "explanationText": "xがyより大きいことを表すx > yが[　　]内に入ります。",
+            "hintText": "x == yはxとyが等しいことを表します"
+        }
+    ]
+}

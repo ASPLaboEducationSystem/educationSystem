@@ -1,6 +1,0 @@
-入力
-　これまでのプログラミングではプログラムの中に書いたことのみで完結していましたが、あとから行った入力をプログラムの中で使うということができます。そのひとつの方法がScannerです。
-　    import java.util.Scanner;
-　    Scanner scanner = new Scanner(System.in);
-　    int x = scanner.next();
-　といった感じに書き、実行したあとに数字を入力することができます。例えば「1」と入力すればxには1が入ります。

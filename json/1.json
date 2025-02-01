@@ -1,0 +1,88 @@
+{
+    "list": [
+        {
+            "id": "01",
+            "questionText": "System.out.print(\"こんにちは\");\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. おはよう",
+                "2. こんにちは",
+                "3. こんばんは"
+            ],
+            "correctAnswer": 2,
+            "explanationText": "System.out.print();の()の中に書いた文字がそのまま表示されます",
+            "hintText": "()の中に注目してください"
+        },
+        {
+            "id": "02",
+            "questionText": "System.out.println(\"カレー\");\nSystem.out.print(\"うどん\");\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. カレー\n   うどん",
+                "2. カレーうどん",
+                "3. カレー　うどん"
+            ],
+            "correctAnswer": 1,
+            "explanationText": "printにlnが付くと()の中を表示した後に改行します",
+            "hintText": "printとprintlnの違いに注目してください"
+        },
+        {
+            "id": "03",
+            "questionText": "System.out.print(\"Hello\");\nSystem.out.print(\"World\");\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. Hello\n   World",
+                "2. WorldHello",
+                "3. HelloWorld"
+            ],
+            "correctAnswer": 3,
+            "explanationText": "printは改行しないため2つが横並びで表示されます",
+            "hintText": "上から順番に処理されます"
+        },
+        {
+            "id": "04",
+            "questionText": "System.out.print(\"Hello\" + \"World\");\n\nこのコードの実行結果は？",
+            "selections": [
+                "1. HelloWorld",
+                "2. Hello+World",
+                "3. Hello"
+            ],
+            "correctAnswer": 1,
+            "explanationText": "()の中に+があると文字をつなげることができます",
+            "hintText": "文字列連結を意味する+に注目してください"
+        },
+        {
+            "id": "05",
+            "questionText": "System.[　　].print(\"私は電大太郎です\");\n\nこのコードの出力結果が以下のとき、[　　]に入る文字は？\n私は電大太郎です",
+            "selections": [
+                "1. eat",
+                "2. out",
+                "3. println"
+            ],
+            "correctAnswer": 2,
+            "explanationText": "System.out.print();で()の中に書いた文字が表示されます",
+            "hintText": "出力することを英語でアウトプットといいます"
+        },
+        {
+            "id": "06",
+            "questionText": "System.out.print(\"[　　]\");\n\nこのコードの出力結果が以下のとき、[　　]に入る文字は？\n私は犬派です",
+            "selections": [
+                "1. print",
+                "2. こんにちは",
+                "3. 私は犬派です"
+            ],
+            "correctAnswer": 3,
+            "explanationText": "()の中にある\"\"(ダブルクオーテーション)で囲まれた文字が表示されます",
+            "hintText": "()の中には表示したい文字を書きます"
+        },
+        {
+            "id": "07",
+            "questionText": "System.out.[　　](\"1行目です\");\nSystem.out.print(\"2行目です\");\n\nこのコードの出力結果が以下のとき、[　　]に入る文字は？\n1行目です\n2行目です",
+            "selections": [
+                "1. println",
+                "2. print",
+                "3. Hello"
+            ],
+            "correctAnswer": 1,
+            "explanationText": "printlnにすると()の中を表示した後改行します",
+            "hintText": "改行したい場合に使うものを選びましょう"
+        }
+    ]
+}

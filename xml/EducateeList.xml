@@ -5,31 +5,31 @@
         <list>
             <list>
                 <questionId>01</questionId>
-                <status>Uncollect</status>
+                <status>Unanswered</status>
             </list>
             <list>
                 <questionId>02</questionId>
-                <status>Uncollect</status>
+                <status>Unanswered</status>
             </list>
             <list>
                 <questionId>03</questionId>
-                <status>Uncollect</status>
+                <status>Unanswered</status>
             </list>
             <list>
                 <questionId>04</questionId>
-                <status>Uncollect</status>
+                <status>Unanswered</status>
             </list>
             <list>
                 <questionId>05</questionId>
-                <status>Collect</status>
+                <status>Unanswered</status>
             </list>
             <list>
                 <questionId>06</questionId>
-                <status>Uncollect</status>
+                <status>Unanswered</status>
             </list>
             <list>
                 <questionId>07</questionId>
-                <status>Uncollect</status>
+                <status>Unanswered</status>
             </list>
             <sectionId>1</sectionId>
         </list>
@@ -212,11 +212,11 @@
         <list>
             <list>
                 <questionId>01</questionId>
-                <status>Uncollect</status>
+                <status>Unanswered</status>
             </list>
             <list>
                 <questionId>02</questionId>
-                <status>Collect</status>
+                <status>Unanswered</status>
             </list>
             <sectionId>10</sectionId>
         </list>
